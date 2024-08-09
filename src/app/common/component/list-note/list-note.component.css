@@ -1,0 +1,51 @@
+.list-note {
+  width: 300px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-search {
+  display: flex;
+}
+
+.filter_button, .search_button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  background-color: #FFFBFB;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.pin-title {
+  color: #898686;
+}
+
+.pin-title > div {
+  display: flex;
+  align-items: center;
+}
+
+.pin-title span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
